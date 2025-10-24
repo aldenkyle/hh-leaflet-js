@@ -14,8 +14,8 @@ html, body, #map {
 
 #filter-container {
     position: absolute;
-    right: 12px;
-    top: 12px;
+    left: 12px;
+    bottom: -120px;
     z-index: 999;
 }
 

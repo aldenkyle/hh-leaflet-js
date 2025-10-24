@@ -18,7 +18,7 @@ var points = L.geoCsv (null, {
             var title = points.getPropertyTitle(clave).strip();
             var attr = feature.properties[clave];
             if (title == labelColumn) {
-                layer.bindLabel(feature.properties[clave], {className: 'map-label'});
+                layer.bindTooltip(feature.properties[clave], {className: 'map-label'});
             }
             if (attr.indexOf('http') === 0) {
                 attr = '<a target="_blank" href="' + attr + '">'+ attr + '</a>';

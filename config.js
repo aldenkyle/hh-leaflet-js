@@ -7,9 +7,9 @@ var subdomains = 'abc';
 var clusterOptions = {showCoverageOnHover: false, maxClusterRadius: 50};
 var labelColumn = "name";
 var opacity = 1.0;
-var myIcon = L.icon({
+var baseIcon = L.icon({
     iconUrl: 'img/moon.png',
-    iconSize: [20, 20],
-    iconAnchor: [10, 10]
+    iconSize:     [40, 40], // size of the icon
+    iconAnchor:   [20, 20], // point of the icon which will correspond to marker's location
+    popupAnchor:  [-8, -8] // point from which the popup should open relative to the iconAnchor
 });
-
