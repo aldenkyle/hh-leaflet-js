@@ -1,4 +1,4 @@
-var dataUrl = 'data\\hh_combo.csv';
+var dataUrl = 'data/hh_combo.csv';
 var maxZoom = 12;
 var fieldSeparator = ';';
 var baseUrl = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
@@ -7,9 +7,4 @@ var subdomains = 'abc';
 var clusterOptions = {showCoverageOnHover: false, maxClusterRadius: 50};
 var labelColumn = "name";
 var opacity = 1.0;
-var baseIcon = L.icon({
-    iconUrl: 'img/moon.png',
-    iconSize:     [40, 40], // size of the icon
-    iconAnchor:   [20, 20], // point of the icon which will correspond to marker's location
-    popupAnchor:  [-8, -8] // point from which the popup should open relative to the iconAnchor
-});
+
