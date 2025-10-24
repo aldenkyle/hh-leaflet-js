@@ -1,4 +1,4 @@
-var dataUrl = 'https://raw.githubusercontent.com/aldenkyle/hh-leaflet-js/refs/heads/master/data/hh_combo.csv';
+var dataUrl = 'data\hh_combo.csv';
 var maxZoom = 12;
 var fieldSeparator = ';';
 var baseUrl = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
